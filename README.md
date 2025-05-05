@@ -1,15 +1,15 @@
-# 🌦️ C# Weather Console App
+#  C# Weather Console App
 
 A simple C# console application that fetches and displays the current weather for a user-specified city using the OpenWeatherMap API.
 
-## 💻 Technologies
+## Technologies
 
 - C#
 - .NET Core
 - HttpClient
 - JSON parsing with System.Text.Json
 
-## 🚀 How to Run
+## How to Run
 
 1. Replace `"your_api_key"` in `Program.cs` with your [OpenWeatherMap API key](https://openweathermap.org/api).
 2. Build and run the project:
@@ -20,13 +20,13 @@ dotnet new console -n csharp_weather_app
 dotnet run --project csharp_weather_app
 ```
 
-## 🧠 Features
+## Features
 
 - Prompts user for a city
 - Calls OpenWeatherMap API
 - Displays weather description and temperature
 
-## 🛠️ To-Do
+## To-Do
 
 - Add error handling for invalid city names
 - Display more detailed weather data
